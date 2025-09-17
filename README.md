@@ -1,2 +1,2 @@
 # DataStructures-2025
-Data Structures and Algorithms files for school.
+Data Structures and Algorithms repository for school.
