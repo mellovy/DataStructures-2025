@@ -1,14 +1,14 @@
-#**Sets**
+# **Sets**
 - a set of unique elements, no need for sorting
 
-##**Implementations**
+## **Implementations**
   - Arrays
   - Linked Lists
   - Cursor-Based
   - Bit Vector
   - Computer Word
  
-##**Operations:**
+## **Operations**
   - Insert
   - Delete
   - Find / Comparison
