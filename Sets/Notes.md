@@ -1,5 +1,6 @@
 # **Sets**
-- a set of unique elements, no need for sorting
+- a set of unique elements, sort not needed.
+- cannot insert more than there is in the universal set.
 
 ## **Implementations**
   - Arrays
