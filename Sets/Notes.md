@@ -13,7 +13,7 @@
   - Insert
   - Delete
   - Find / Comparison
-  - Union
-  - Subset
-  - Intersection
-  - Difference
+  - Union (OR)
+  - Intersection (AND) 
+  - Difference (XOR)
+  - Subset 
