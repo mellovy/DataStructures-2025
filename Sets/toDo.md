@@ -1,4 +1,5 @@
-create functions of \\
+create functions of  
+
 initSet \
 displaySet in Bits \
 displaySetinValues \
