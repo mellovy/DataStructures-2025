@@ -1,4 +1,4 @@
-create functions of  
+#Create functions of: 
 
 initSet \
 displaySet in Bits \
