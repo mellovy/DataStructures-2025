@@ -1,4 +1,4 @@
-create functions of \
+create functions of \\
 initSet \
 displaySet in Bits \
 displaySetinValues \
@@ -7,4 +7,4 @@ deleteElem \
 isMember \
 unionSet \
 intersectionSet \
-differenceSet \
+differenceSet 
