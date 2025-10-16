@@ -1,9 +1,8 @@
 for all implementations
 
-create functions of 
 initSet
 displaySet in Bits
-displaySetinValues
+displaySet in Values
 insertElem
 deleteElem
 isMember
