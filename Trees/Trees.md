@@ -43,7 +43,7 @@ Order of Siblings
   related by ancestor-descendant relationship
 - if A and B are siblings, ad A is to the left of B, then all of the descendant of A are to the left of all the descendants of B
 
-  Ordering of Nodes (traversal)
+Ordering of Nodes (traversal)
   - Preorder (first to last)
     -> the root of T
     -> nodes of T1 in pre-order
@@ -61,3 +61,25 @@ Order of Siblings
     -> the nodes of T2 in order
     -> and so on..
     
+ADT Tree Operations
+- Parent(T, N) - returns parent of the node N, if N is the root then it returns NULL
+- Leftmost_Child(T, N) - returns the leftmost child of node N in tree T. If N is a leaf, return NULL
+- Right_Sibling(T, N) - returns the right sibling of node N in tree T; same parent
+- Label(T, N) - returns the label (value) of node N in tree T
+- Create(V, T1, T2, T3, TN) - creates a new root R with label V, and gives it I children, which are the
+roots of T1, T2, T3, TN in order from left to right
+- Root(T) - returns the root of the tree T, returns NULL for a null tree
+- Initialize(T) - initializes the tree
+- MakeNull(T) - makes the tree an empty tree
+
+Implementation of Trees
+- Parent Pointer Representation
+  -> Array Representation
+  -> T[x] = y, is y is the parent of the node
+  -> T[x] = -1, if x is the root node
+  -> T[x] = -2, if x is not a node in the tree
+- List of Children
+  -> Linked List Representation
+  -> uses an array of header cells, indexed by nodes
+  -> each header points to a linked list of elements which are nodes
+  -> the elements on the list headed by header[x] are the children of node X
