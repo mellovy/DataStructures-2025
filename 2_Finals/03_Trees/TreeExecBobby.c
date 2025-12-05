@@ -62,6 +62,7 @@ int main(){
     insertNode(&Tree, newBook2);
     insertNode(&Tree, newBook3);
 
+    printf("\nBook list in order: \n");
     display(Tree);
 
 
